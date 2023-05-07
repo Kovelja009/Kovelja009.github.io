@@ -1,0 +1,381 @@
+/* .container div{
+    border: 1px solid rgb(209, 154, 154);
+} */
+
+/* ////////////////////////// */
+/* navbar */
+.fluid_navbar .navbar{
+    background-color: #2D2D2D;
+}
+.fluid_navbar .nav-link{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.fluid_navbar .ponuda{
+    color: #F65454;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+} 
+
+.logo_header{
+    height: 3em;
+}
+
+.navbar-brand{
+    font-size: 1.5em;
+    color: #F65454;
+    margin-left: 10px;
+}
+
+
+/* /////////////////////////// */
+
+.container-fluid{
+    background-color: #F1F1F1;
+}
+
+/* /////////////////////////// */
+/* marketing */
+
+.ma_img{
+    align-items: top;
+    margin-top: -10%;
+    width: 50%;
+    height: 50%;
+}
+
+/* /////////////////////////// */
+
+/* /////////////////////////// */
+/* odaberi hosting */
+@media screen and (min-width:800px){
+    .odaberi{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .odaberi{
+        padding-top: 10%;
+        padding-bottom: 10%;
+
+    }
+}
+
+/* Web hosting */
+@media screen and (min-width:800px){
+    #web-hosting{
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width:800px){
+    #web-hosting{
+        padding-top: 15%;
+        padding-bottom: 5%;
+
+    }
+}
+
+/* Business hosting */
+@media screen and (min-width:800px){
+    #business-hosting{
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width:800px){
+    #business-hosting{
+        padding-top: 15%;
+        padding-bottom: 5%;
+
+    }
+}
+/* /////////////////////////// */
+
+/* /////////////////////////// */
+/* povoljnosti */
+@media screen and (min-width:800px){
+    .povoljnosti{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .povoljnosti{
+        padding-bottom: 30px;
+
+    }
+
+    .povoljnosti .donji{
+        padding-top: 15px;
+    }
+
+}
+
+/* /////////////////////////// */
+
+/* /////////////////////////// */
+/* kartice */
+.card{
+    background-color: #c5c2c2;
+}
+
+.cena{
+    padding-top: 2svb;
+    padding-bottom: 2svb;
+    color: #F65454;
+}
+
+.special_cena{
+    padding-top: 2svb;
+    padding-bottom: 2svb;
+    color: #ffffff;
+}
+
+.special_card{
+    background-color: #F65454;
+    color: rgb(255, 255, 255);
+}
+
+.cena-mes{
+    padding-top: 1svb;
+    color: #000000;
+}
+
+.cena-god{
+    padding-bottom: 3svb;
+    color: #F65454;
+}
+
+.thumb-post {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 250px;
+    min-height: 400px;
+}
+
+.thumb-post-web {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 180px;
+    min-height: 380px;
+}
+
+.thumb-post-business {
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 150px;
+    min-height: 550px;
+}
+
+.my-btn{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width:800px){
+    .kartice .btn{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        min-width: fit-content;
+        align-self: flex-end;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    .kartice .btn{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        min-width:fit-parent;
+        align-self: flex-start;
+    }
+
+}
+
+@media screen and (min-width:800px){
+    .kartice-web .btn{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        min-width: fit-content;
+        align-self: flex-end;
+        
+    }
+
+    .kartice-web{
+        padding-top: 3em;
+        padding-bottom: 5em;
+    }
+    
+}
+
+@media screen and (max-width:800px){
+    .kartice-web .btn{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        min-width:fit-parent;
+        align-self: flex-start;
+    }
+
+}
+/* /////////////////////////// */
+
+/* /////////////////////////// */
+/* povoljnosti domen*/
+@media screen and (min-width:800px){
+    .povoljnosti_domen{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .povoljnosti_domen{
+        padding-bottom: 30px;
+
+    }
+
+    .povoljnosti_domen .donji{
+        padding-top: 15px;
+    }
+
+}
+
+.ostali-btn{
+    background-color: #F65454;
+    background-color: #F65454;
+    color: rgb(255, 255, 255);
+}
+.ostali-btn:hover{
+    background-color: #F65454;
+    background-color: #F65454;
+    color: rgb(255, 255, 255);
+}
+
+.form-control{
+    max-width:50%;
+}
+
+.cenna{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+} 
+
+.webior{
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+/* /////////////////////////// */
+
+
+/* /////////////////////////// */
+/* footer */
+.opcija-row{
+    background-color: #E3E3E3;
+}
+
+.domeniii{
+    padding-bottom: 15px;
+}
+.footer_fluid{
+    background-color: #2D2D2D;
+    color: rgb(255, 255, 255);
+}
+
+.podaci{
+    text-align: center;
+}
+@media screen and (min-width:800px){
+    .podaci{
+        text-align: justify;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .podaci{
+        text-align: center;
+    }
+    .web_povoljnosti .stikla{
+        text-align: start;
+        margin-left: 10%;
+        margin-bottom: 3%;
+    }
+}
+.web_povoljnosti{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+/* /////////////////////////// */
+/* fonts */
+@media screen and (min-width:800px){
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+    }
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+    
+    }
+    h5{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+    
+    }
+}
+@media screen and (max-width:800px){
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 35px;
+    }
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 25px;
+    
+    }
+    h5{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+    
+    }
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (min-width:800px){
+    #marketing{
+        /* zbog fiksnog navbar-a */
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width:800px){
+    #marketing{
+        /* zbog fiksnog navbar-a */
+        padding-top: 20%;
+    }
+}
