@@ -21,9 +21,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
   
   
-  <!-- <link href="font/css/fontello.css" rel="stylesheet"> -->
   <link href="main.css" rel="stylesheet"> 
   <!-- nas .css postavljati na kraj -->
+  <script src="script.js"></script>
 </head>
 
 <body>    
@@ -42,10 +42,10 @@
                   <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
                     <ul class="navbar-nav col-lg-12 justify-content-center text-center">
                         <li class="nav-item col-lg-2">
-                            <a class="nav-link position-static" href="#">Početna strana</a>
+                            <a class="nav-link position-static" href="#" id="home">Početna strana</a>
                         </li>
                         <li class="nav-item col-lg-2">
-                            <a class="nav-link ponuda" href="#">Ponuda</a>
+                            <a class="nav-link ponuda" href="#" id="ponuda">Ponuda</a>
                         </li>
                         <li class="nav-item col-lg-2">
                             <a class="nav-link" href="#">Blog</a>
@@ -149,7 +149,7 @@
                             <p class="mb-3">1 CPU core</p>
                             <p class="mb-3">1GB RAM</p>
                             <h3 class="cena mb-4">2400 rsd/mes</h3>
-                            <button class="my-btn btn rounded-pill px-3" type="button">Vidi više</button>
+                            <button class="my-btn btn rounded-pill px-3" type="button" id="web">Vidi više</button>
                         </div>
                     </div>
                 </div>
@@ -165,7 +165,7 @@
                             <p class="mb-3">2 CPU cores</p>
                             <p class="mb-3">4GB RAM</p>
                             <h3 class="special_cena mb-4">2500 rsd/mes</h3>
-                            <button class="my-btn btn rounded-pill px-3" type="button">Vidi više</button>
+                            <button class="my-btn btn rounded-pill px-3" type="button" id="business">Vidi više</button>
                         </div>
                     </div>
                 </div>
@@ -225,8 +225,8 @@
 
                 <div class="col-sm-6 donji">
                     <div class="input-group align-items-center justify-content-center">
-                        <input type="search" class="form-control" placeholder="unesite naziv"/>
-                        <button type="button" class="btn ostali-btn">proveri</button>
+                        <input type="search" class="form-control" id="searchbar" placeholder="unesite naziv"/>
+                        <button type="button" class="btn ostali-btn" id="proveri">proveri</button>
                     </div>
                 </div>
                
@@ -248,7 +248,7 @@
                             <p class="cenna mb-auto">1800 rsd/mes</p>
                         </div>
                         <div class="col-2 p-sm-4 p-3 d-flex flex-column position-static">
-                            <img src="imgs/next_android.png" height="30" width="30" alt="Image">
+                            <img src="imgs/next_android.png" id="korpa1" height="30" width="30" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@
                             <p class="cenna mb-auto">1700 rsd/mes</p>
                         </div>
                         <div class="col-2 p-sm-4 p-3 d-flex flex-column position-static">
-                            <img src="imgs/next_android.png" height="30" width="30" alt="Image">
+                            <img src="imgs/next_android.png" id="korpa2" height="30" width="30" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -276,7 +276,7 @@
                             <p class="cenna mb-auto">1800 rsd/mes</p>
                         </div>
                         <div class="col-2 p-sm-4 p-3 d-flex flex-column position-static">
-                            <img src="imgs/next_android.png" height="30" width="30" alt="Image">
+                            <img src="imgs/next_android.png" id="korpa3" height="30" width="30" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -290,7 +290,7 @@
                             <p class="cenna mb-auto">2300 rsd/mes</p>
                         </div>
                         <div class="col-2 p-sm-4 p-3 d-flex flex-column position-static">
-                            <img src="imgs/next_android.png" height="30" width="30" alt="Image">
+                            <img src="imgs/next_android.png" id="korpa4" height="30" width="30" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -304,7 +304,7 @@
                             <p class="cenna mb-auto">1800 rsd/mes</p>
                         </div>
                         <div class="col-2 p-sm-4 p-3 d-flex flex-column position-static">
-                            <img src="imgs/next_android.png" height="30" width="30" alt="Image">
+                            <img src="imgs/next_android.png" id="korpa5" height="30" width="30" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -318,7 +318,7 @@
                             <p class="cenna mb-auto">1200 rsd/mes</p>
                         </div>
                         <div class="col-2 p-sm-4 p-3 d-flex flex-column position-static">
-                            <img src="imgs/next_android.png"  height="30" width="30" alt="Image">
+                            <img src="imgs/next_android.png" id="korpa6" height="30" width="30" alt="Image">
                         </div>
                     </div>
                 </div>

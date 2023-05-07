@@ -72,6 +72,9 @@
     #web-hosting{
         padding-top: 3%;
     }
+    #student{
+        padding-top: 3%;
+    }
 }
 
 @media screen and (max-width:800px){
@@ -80,6 +83,12 @@
         padding-bottom: 5%;
 
     }
+    #student{
+        padding-top: 15%;
+        padding-bottom: 10%;
+
+    }
+    
 }
 
 /* Business hosting */
@@ -273,14 +282,20 @@
     margin-bottom: 5em;
 }
 
+.opcija-row{
+    background-color: #c5c2c2;
+}
+
+.dostupno{
+    background-color: #F65454;
+    color: rgb(255, 255, 255);
+}
+
 /* /////////////////////////// */
 
 
 /* /////////////////////////// */
 /* footer */
-.opcija-row{
-    background-color: #E3E3E3;
-}
 
 .domeniii{
     padding-bottom: 15px;
